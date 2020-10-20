@@ -26,7 +26,7 @@ videos.forEach(function(video_id){
                     <img class="thumbnail" src="${video_thumbnail}" />
                 </a><br>
                 <p class="video_title">${video_title}</p>
-                <a class="play-btn" href="${base_url}/${video_id}">▶ Play</a>
+                <a class="play-btn" target="_blank" href="${base_url}/${video_id}">▶ Play</a>
             </div>
         `;
 
